@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+   <!-- Metadata -->
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title type="main"> Les fils de famille</title>
+            <title type="subtitle"> « Les fils de famille » est un roman social d’Eugene Sue, peu
+               connu. Son histoire est un drame familial qui tourne autour de l’amour, d’une
+               grossesse involontaire et d’une confrontation mortelle. Un voyage, une histoire
+               d’amour qui se mélange avec les conflits de classes. Un Bourgois aventurier, un
+               mariage hypergamique et un drame qui illustre toutes les tensions possibles dans cet
+               univers de la famille traditionnelle. </title>
+            <author resp="main">
+               <forename>Eugène</forename><surname>Sue</surname>
+            </author>
+            <respStmt>
+               <resp> ENC - Encodage realisée dans le cadre du contrôle continu du cours de XML-TEI
+                  et mise en forme pendant les cours de XSLT </resp>
+               <persName><forename>Alex</forename><surname>Soares</surname></persName>
+            </respStmt>
+         </titleStmt>
+
+         <!-- publisher zone  -->
+
+         <publicationStmt>
+            <publisher facs="https://fr.wikipedia.org/wiki/Michel_L%C3%A9vy_fr%C3%A8res">
+               Michel-Lévy Frères </publisher>
+            <pubPlace>Paris, France</pubPlace>
+            <date when-iso="1862">1862</date>
+            <distributor facs="https://gallica.bnf.fr/ark:/12148/bpt6k58180814?rk=21459;2">BNF
+               gallica</distributor>
+            <address>
+               <addName> 2 bis rue vivienne,Paris - 75002</addName>
+               <country>France</country>
+            </address>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">Licence
+                  Creative Commons Attribution-partage dans les mêmes conditions</licence>
+            </availability>
+            <idno facs="ark:/12148/bpt6k58180814">Y2-5510</idno>
+            <authority>Bibliothèque nationale de France, département Littérature et art</authority>
+         </publicationStmt>
+
+         <!-- source zone -->
+
+        <sourceDesc>
+           <bibl>
+              <lang>Francais</lang>
+              <country>France</country>
+           </bibl>
+        </sourceDesc>
+      </fileDesc>
+
+   </teiHeader>
+
+   <!-- Text part -->
+   <text>
+      <body>
+         <!-- Homework pages 5-6 -->
+         <div type="devoir">
+            <head type="head_premiere">I</head>
+            <p>Durant ce voyage, grâce à sa réputation de magnificence et d'homme à la mode,
+               colportée à <placeName ref="#Florence">Florence</placeName>, à <placeName
+                  ref="#Naples">Naples</placeName>, à <placeName ref="#Rome">Rome</placeName> par
+               les riches étrangers qui l'avaient connu à <placeName ref="#Paris">Paris</placeName>,
+               le beau <persName ref="#Charles_Delmare">Delmare</persName> eut de nouveaux succès
+               dans ces villes de plaisir; il en jouit avec une sorte d'avidité fébrile, désespérée,
+               où le jetait la pensée de sa mort prochaine. Ses dernières ressources s'épuisaient de
+               jour en jour; il possédait cependant encore trente mille . francs et était revenu de
+                  <placeName ref="#Florence">Florence</placeName> à <placeName ref="#Geneve"
+                  >Genève</placeName>, où il comptait résider quelque temps ; mais un événement
+               imprévu venait changer le cours de sa destinée. <persName ref="#Charles_Delmare"
+                  >Charles Delmare</persName> rencontrait, à bord du bateau à vapeur qui fait la
+               traversée de <placeName ref="#Geneve">Genève</placeName> à<placeName ref="#Lausanne"
+                  >Lausanne</placeName>, une jeune femme qui devait lui inspirer l'amour le plus
+               passionné qu'il eût jamais ressenti. Il apprenait que, venue de <placeName
+                  ref="#Paris">Paris</placeName> depuis peu, elle habitait seule, près de <placeName
+                  ref="#Lausanne">Lausanne</placeName>, un cottage où son mari, <persName
+                  ref="#Ernest_Dumirail">M. Ernest Dumirail</persName>, l'avait laissée jusqu'à
+               l'automne, pendant qu'il parcourait en touriste intrépide quelques-unes des plus
+               hautes montagnes de la <placeName ref="#Suisse">Suisse</placeName>.</p>
+
+            <p><persName ref="#Charles_Delmare">Delmare</persName> se faisait aimer de <persName
+                  ref="#Emmeline_Dumirail">madame Ernest Dumirail</persName>, et la trompait sur le
+               véritable nom qu'il portait, craignant que sa réputation d'homme à bonnes fortunes ne
+               fût parvenue jusqu'à elle, et ne lui inspirât des doutes sur la sincérité de l'amour
+               qu'il lui jurait. Il prenait le nom de <persName ref="#Charles_Wagner">Charles
+                  Wagner</persName> et se disait peintre. L'étude des beautés de la nature l'amenait
+               en <placeName ref="#Suisse">Suisse</placeName>. <persName ref="#Emmeline_Dumirail"
+                  >Emmeline Dumirail</persName>, femme d'une beauté rare, d'un noble coeur, et
+               jusqu'alors irréprochable, avait, avant d'oublier ses devoirs, longtemps et
+               vaillamment lutté contre l'entraînement d'une séduction d'autant plus dangereuse, que
+               le séducteur était passionnément épris. Le beau <persName ref="#Charles_Delmare"
+                  >Delmare</persName> aimait comme il n'avait encore jamais aimé. Il oubliait sa
+               ruine, ses projets de suicide, dans l'ivresse de cet amour partagé. Mais venait le
+               moment où il devait commencer de pleurer avec des larmes de sang ses folles
+               prodigalités. Un jour, <said who="#Emmeline_Dumirail" direct="true" aloud="true"
+                  toWhom="#Charles_Wagner"/><persName ref="#Emmeline_Dumirail">'Emmeline,</persName>
+               éperdue d'épouvante, lui apprenait à la fois qu'elle était mère et qu'une lettre lui
+               annonçait le retour de son mari. Trop loyale pour introduire hypocritement au foyer
+               domestique l'enfant de l'adultère et n'osant braver la présence de <said
+                  who="#Emmeline_Dumirail" direct="true" aloud="true" toWhom="#Charles_Wagner"
+                  /><persName ref="#Emmeline_Dumirail">M. Dumirail</persName>, elle proposait à
+                  <persName ref="#Charles_Delmare">Charles</persName> de fuir avec lui et de lui
+               consacrer sa vie. Elle le croyait un pauvre artiste, elle-même ne possédait aucuns
+               biens, n'ayant apporté en dot à son mari que sa beauté; mais elle ne reculerait
+               devant aucune privation, pourvu...</p>
+            <p> que son amant ne l'abandonnât pas. <persName ref="#Charles_Delmare">Charles
+                  Delmare</persName>, encore riche ou seulement encore possesseur d'une partie de sa
+               fortune, eût considéré comme le plus doux des devoirs d'accepter l'offre d'<persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName>; mais, complétement ruiné, il
+               s'effrayait de l'abîme de misère où il entraînerait la femme qu'il avait perdue, s'il
+               acceptait son dévouement; il s'efforçait de dissuader <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName> de cette résolution désespérée. La
+               malheureuse femme <said who="#Emmeline_Dumirail" direct="true" aloud="true"
+                  toWhom="#Charles_Wagner"/>, attribuant le refus de son amant à la désaffection,
+               fondait en larmes et lui adressait des reproches déchirants, lorsque soudain
+               apparaissait <persName ref="#Ernest_Dumirail">M. Ernest Dumirail</persName>,
+               inopinément de retour et témoin jusqu'alors invisible de cette scène navrante, il
+               acquérait ainsi la preuve de son déshonneur, exigeait du prétendu <persName
+                  ref="#wagner">Wagner</persName> une réparation par les armes, choisissait l'épée
+               qu'il maniait habilement, Le duel avait lieu, et, quoiqu'il s'efforçât de ménager les
+               jours de <persName ref="#Ernest_Dumirail">M. Ernest Dumirail</persName> en se tenant
+               d'abord sur la défensive, le beau <persName ref="#Charles_Delmare"
+               >Delmare</persName>, entraîné malgré lui par l'ardeur du combat, frappait
+               mortellement son adversaire et tombait lui-même grièvement blessé.</p>
+
+            <p><persName ref="#Charles_Delmare">Charles Delmare</persName>, transporté presque
+               mourant de sa blessure, dans une chambre d'auberge, à <placeName ref="#Lausanne"
+                  >Lausanne</placeName>, et bientôt en proie au violent délire de la fièvre,
+               demeurait plusieurs jours sans conscience de lui-même. Il apprenait, en revenant à
+               lui, la mort de <persName ref="#Ernest_Dumirail">M. Ernest Dumirail</persName> par
+               une lettre <said who="#Emmeline_Dumirail" direct="false" aloud="false"
+                  toWhom="#Charles_Wagner"/>
+               <persName ref="#Emmeline_Dumirail">d'Emmeline</persName>, lettre écrasante, où le
+               remords d'avoir, par sa coupable faiblesse, causé lé meurtre de son mari, se joignait
+               au désespoir de s'être perdue pour <persName ref="#wagner">Wagner</persName>, homme
+               sans coeur, sans foi, sans honneur et à ce point méprisable, qu'il avait refusé de
+               partager le sort d'une femme dont il restait l'unique appui.<persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName>, accablant son séducteur des plus
+               sanglants reproches, le maudissait et lui déclarait que jamais il n'entendrait parler
+               d'elle ni de son enfant, s'il devait voir le jour.</p>
+
+            <p>Une révolution étrange s'opérait dans le caractère de <persName
+                  ref="#Charles_Delmare">Charles Delmare</persName> : il renonçait à ses projets de
+               suicide; il se résignait à vivre désormais obscurément, pauvrement, du peu qu'il lui
+               restait : un capital d'environ vingt mille francs, seul débris de son opulence; sa
+               passion pour <persName ref="#Emmeline_Dumirail">Emmeline</persName>, loin de
+               s'éteindre par leur séparation, redoublait, accrue, sanctifiée par la paternité,
+               sentiment dont il éprouvait pour la première fois le puissant empire; désolé d'être
+               méconnu de <persName ref="#Emmeline_Dumirail">madame Dumirail</persName>, de passer à
+               ses yeux pour un homme méprisable, tandis qu'il n'avait cédé qu'à des hésitations
+               honorables, une pensée unique l'obsédait, retrouver la jeune veuve, la désabuser par
+               des aveux complets, reconquérir son estime, son amour et surtout-jouir un jour de
+               l'affection de pet enfant encore à naître, et qui cependant, mystère insondable de
+               l'âme humaine, devenait le but de l'existence de cet homme, existence jusqu'alors
+               désordonnée. </p>
+
+            <p>Les recherches de <persName ref="#Charles_Delmare">Charles Delmare</persName>, au
+               sujet d'<persName ref="#Emmeline_Dumirail">Emmeline</persName>, étaient restées
+               longtemps infructueuses. Il apprenait seulement qu'après la mort de <persName
+                  ref="#Ernest_Dumirail">M. Dumirail</persName>, tué, disait-on, en duel, par un
+               artiste inconnu, séducteur de sa femme, le beau-frère de celle-ci, <persName
+                  ref="#Julien_Dumirial">M. Julien Dumirail</persName>, riche propriétaire, habitant
+               le département du <placeName ref="#Jura">Jura</placeName>, et sa soeur, <persName
+                  ref="#Madame_San_Privato">madame San-Privato</persName>, femme du consul général
+               de <placeName ref="#Naples">Naples</placeName> à <placeName ref="#Paris"
+                  >Paris</placeName>, s'étaient refusé de revoir leur belle-soeur <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName>, qui vivait dans une retraite
+               ignorée. L'insuccès de ses recherches ne décourageait pas <persName
+                  ref="#Charles_Delmare">Charles Delmare</persName>, n'affaiblissait en rien son
+               amour pour </p>
+
+            <p>...la jeune veuve ou son -désir passionné de l'affection do son onfant. Aussi, se
+               rattachant de toutes les forces de son âme à celle double espérance, il y trouvait
+               l'incessante occupation de sa vie, l'oubli de sa ruine et des privations-qu'elle lui
+               imposait; ou bien parfois il se rappelait son opulence passée. Il songeait avec de
+               douloureux et stériles regrets que ces biens, si follement dissipés, auraient assuré
+               la plus brillante existence à son enfant, désormais sans famille et répudié de tous,
+               ainsi que sa mère.</p>
+
+            <p>Quelques années se passaient. Enfin, un jour, <persName ref="#Charles_Delmare"
+                  >Charles Delmare</persName> rencontrait par hasard, dans l'une des promenades
+               solitaires du <placeName ref="#Jardin_des_plantes">Jardin des Plantes</placeName>,
+                  <persName ref="#Emmeline_Dumirail">Emmeline Dumirail</persName>, accompagnée d'une
+               petite fille de cinq ans, d'une beauté ravissante. Éperdu de surprise et de joie,
+               oubliant qu'il se trouvait dans un lieu public, <said who="#Charles_Delmare"
+                  direct="true" aloud="true" toWhom="#Emmeline_Dumirail"/><persName
+                  ref="#Charles_Delmare">Charles Delmare</persName>, fondant en larmes, tombait aux
+               genoux de la jeune veuve, bouleversée, presque défaillante de stupeur, se saisissait
+               de l'enfant, le couvrait de pleurs, de baisers délirants. Puis, en quelques mots
+               empreints d'un irrésistible accent de sincérité, il avouait à <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName> pourquoi, jadis, il avait pris le
+               nom* de <persName ref="#wagner">Wagner</persName>; comment il avait dû hésiter, dans
+               sa ruine, à faire partager ses misères à une femme perdue par lui et pour lui ;
+               enfin, quel changement cet amour inaltérable apportait dans sa vie autrefois si
+               désordonnée. <persName ref="#Emmeline_Dumirail">Madame Dumirail</persName>, émue,
+               persuadée, parvenait à calmer l'exaltation de <persName ref="#Charles_Delmare"
+                  >Delmare</persName>, en lui promettant de le revoir, mais pas avant le lendemain.
+               Elle eût été, ce jour-là, encore trop émue des suites de cette rencontre imprévue; il
+               se résignait à ce retard et regagnait sa pauvre demeure dans le ravissement de la
+               beauté de sa fille : la paternité, jusqu'alors chez lui seulement instinctive,
+               atteignait à son dernier terme d'expansion; son amour pour <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName> s'épurait, s'élevait; il se sentait
+               capable de ne plus voir en elle la maîtresse, mais la mère, et il se rendait chez
+               elle, résolu de lui déclarer qu'à leur coupable liaison d'autrefois, déjà si
+               terriblement expiée, succéderaient des relations pures, austères, pour ainsi dire
+               sanctifiées par la présence de leur enfant.</p>
+
+            <p><persName ref="#Charles_Delmare">Charles Delmare</persName>, sous l'impression de ces
+               sentiments généreux, se rendait le lendemain chez <persName ref="#Emmeline_Dumirail"
+                  >madame Dumirail</persName>. Elle avait, depuis la veille au soir, quitté sa
+               retraite avec sa fille, laissant pour son ancien amant une lettre déchirante où elle
+               l'assurait qu'elle ne doutait plus de sa loyauté, de sa tendresse, mais qu'en le
+               revoyant, le cruel souvenir de sa faute et du meurtre de son mari, dont elle était
+               cause, se représentant à son esprit, avait réveillé ses remords à peine assoupis et
+               jeté dans son âme un tel effroi, que, pour là première fois depuis la naissance de sa
+               fille, cette innocente enfant, l'unique consolation de ses chagrins, lui apparaissait
+               comme le vivant témoignage de sa honte et de son adultère. <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName> suppliait <persName
+                  ref="#Charles_Delmare">Charles Delmare</persName> fle ne plus chercher à la
+               revoir, puisque, entre lui et elle, se dresserait toujours le spectre sanglant de son
+               mari. Elle espérait enfin, en abandonnant pour toujours <placeName ref="#Paris"
+                  >Paris</placeName>, se dérober désormais à de nouvelles recherches.</p>
+
+            <p><persName ref="#Charles_Delmare">Charles Delmare</persName>, d'abord frappé de
+               stupeur, se livrait aux emportements d'un désespoir insensé, regrettant de ne s'être
+               pas emparé de son enfant, trésor de sa vie. Peut-être il eût ainsi forcé <persName
+                  ref="#Emmeline_Dumirail">Emmeline</persName> de rester près </p>
+
+
+            <p>...de lui.- Impuissants regrets! En vain l'opiniâtre résolution de retrouver les
+               traces de la jeune veuve et de sa fille se changeait chez lui en une idée fixe, en
+               une sorlo de monomanio; en vain elle lui donnait cette indomptable ténacité de
+               volonté qui rend les monomanos presque certains d'atteindre leur but; en vain il
+               parcourait les environs de <placeName ref="#Paris">Paris</placeName>, la <placeName
+                  ref="#France">France</placeName>, -lo sac sur le dos, le bâton à la main, vivant
+               do pain et d'eau, couchant sur la paille des auberges, afin de ménager le modique
+               revenu de ses dernières ressources placées en viager. Ces nouvelles recherches
+               demeuraient sans succès. Les années se passaient pour <persName
+                  ref="#Charles_Delmare">Charles Delmare</persName> dans une sorto do contemplation
+               intérieure, grâce à laquelle il voyait, par la pensée, sa fille croître en beauté, en
+               grâces, en vertus; et, ainsi qu'à tous ceux qu'une idée fixe objurgue incessamment,
+               le temps lui semblait s'écouler avec une incroyable rapidité.</p>
+
+            <p>Un jour, depuis peu de retour à <placeName ref="#Paris">Paris</placeName> d'une
+               excursion lointaine, <persName ref="#Charles_Delmare">Charles Delmare</persName>,
+               jetant par hasard les yeux sur cette colonne des journaux où sont publiés les décès
+               des habitants de la cité, lisait, parmi les adresses dés personnes récemment
+               trépassées : « <persName ref="#Emmeline_Dumirail">Madame Ernest Dumirail</persName>,
+               trente-six ans, <placeName ref="#rue_de_ponthieu">rue de Ponthieu, 17</placeName>. »
+               Courir à celte adresse et s'informer de la fille de la morte, telle était la première
+               pensée de <persName ref="#Charles_Delmare">Charles</persName> ; il apprenait du
+               concierge de la maison mortuaire, que feu <persName ref="#Ernest_Dumirail">madame
+                  Ernest Dumirail</persName> avait habité la maison depuis quelques mois, ne sortant
+               que pour aller, visiter sa fille, âgée d'environ quinze ans, pensionnaire d'une
+               institution située dans la même rue; enfin, l'oncle de cette jeune fille, <persName
+                  ref="#Julien_Dumirial">M. Julien Dumirail</persName>, habitant près la ville de
+                  <placeName ref="#Nantua">Nantua</placeName>, dans le département du <placeName
+                  ref="#Jura">Jura</placeName>, était venu chercher sa nièce chez son institutrice,
+               et l'avait emmenée avec lui. <persName ref="#Charles_Delmare">Charles
+                  Delmare</persName>, certain cette fois de revoir sa fille et de se rapprocher
+               d'elle, se mettait en route pour les montagnes du <placeName ref="#Jura"
+                  >Jura</placeName>.</p>
+
+            <p>Ainsi que nous l'avons dit, et grâce à un singulier phénomène psychologique,
+                  <persName ref="#Charles_Delmare">Charles Delmare</persName>, plongé dans une
+               rêverie profonde, venait, en quelques secondes à peine, d'évoquer à ses yeux les
+               souvenirs de sa vie entière après avoir dit à <persName ref="#Genevieve"
+                  >Geneviève</persName> :</p>
+
+            <p>>— <said who="#Charles_Delmare" direct="true" aloud="true" toWhom="#Genevieve"/>J'ai
+               eu malheureusement deux duels : l'un a causé la mort de mon père qui m'a cru tué;
+               l'autre m'a séparé pour toujours de la femme que j'ai le plus tendrement aimée... Ah!
+               dans ces deux faits douloureux qui marquent le début et le terme de ma jeunesse...
+               que de souvenirs... que de souvenirs! Il me semble qu'en ce moment le passé tout
+               entier se représente à mon esprit! </p>
+         </div>
+         <div type="devoir">
+            <head type="head_troisieme">III</head>
+            <p><persName ref="#Genevieve">Geneviève</persName>, voyant <persName
+                  ref="#Charles_Delmare">Charles Delmare</persName> plongé dans la méditation
+               profonde où le jetaient les remémorances du passé, lui dit en soupirant : </p>
+
+            <p>— <said who="#Genevieve" direct="true" aloud="true" toWhom="#Charles_Delmare"/>Enfin,
+               mon pauvre enfant, ce qui est fait est fait... Après tout, tes folies n'ont nui qu'à
+               toi-même et elles ont profité aux autres, car tu avais toujours la main ouverte,., et
+               prenait qui voulait. Enfin, tu as expié par quinze ans de chagrin le malheur d'avoir
+               tué en duel <persName>M. Ernest Dumirail</persName>. N'as-tu pas été suffisamment
+               privé? A quoi bon revenir là-dessus? - </p>
+         </div>
+      </body>
+   </text>
+
+   <!-- Character and Place zone -->
+   <standOff>
+
+      <!-- Relations  -->
+      <listRelation type="Meme_personne">
+         <relation name="Faux_nom" active="#Charles_Delmare" passive="#Wagner"/>
+      </listRelation>
+
+      <listRelation type="Famille">
+         <relation name="Couple" active="#Emmeline_Dumirail" passive="#Ernest_Dumirail"/>
+      </listRelation>
+
+      <listRelation type="Extra-conjugale">
+         <relation name="Amant" active="#Emmeline_Dumirail" passive="#Charles_Delmare"/>
+      </listRelation>
+
+      <listRelation type="Parents">
+         <relation name="Genevieve" active="#Emmeline_Dumirail" passive="#Charles_Delmare"/>
+      </listRelation>
+
+      <listRelation type="Frere_et_soeur">
+         <relation name="Frere_et_soeur" active="#Julien_Dumirial" passive="#Madame_San_Privato"/>
+      </listRelation>
+
+      <listRelation type="Familiale">
+         <relation name="Beau_frere" active="#Ernest_Dumirail" passive="#Julien_Dumirial"/>
+      </listRelation>
+
+
+      <!-- Places -->
+
+      <listPlace>
+         <place xml:id="France">
+            <placeName>France</placeName>
+            <country>France</country>
+            <note>pays des merveilles</note>
+         </place>
+         <place xml:id="Suisse">
+            <placeName>Suisse</placeName>
+            <country>Suisse</country>
+            <note>pays european, pays voisin de la France</note>
+         </place>
+         <place xml:id="Jura">
+            <placeName>Jura</placeName>
+            <country>France</country>
+            <note>Departement Francais</note>
+         </place>
+         <place xml:id="Nantua">
+            <placeName>Nantua</placeName>
+            <country>France</country>
+            <note>Commune francaise dans le departement de l'Ain</note>
+         </place>
+         <place xml:id="Rue_de_ponthieu">
+            <placeName>17 rue de Ponthieu</placeName>
+            <country>France</country>
+            <note>8eme arrondissement de Paris,</note>
+         </place>
+         <place xml:id="Paris">
+            <placeName>Paris</placeName>
+            <country>France</country>
+            <note>capitale francaise, organisation du pouvoir, ville lumiere</note>
+         </place>
+         <place xml:id="Florence">
+            <placeName>Florence</placeName>
+            <country>Italie</country>
+            <note>ville de la rennaissance italienne</note>
+         </place>
+         <place xml:id="Naples">
+            <placeName>Naples</placeName>
+            <country>Italie</country>
+            <note>ville de la pizza et de la mafia:camorra</note>
+         </place>
+         <place xml:id="Rome">
+            <placeName>Rome</placeName>
+            <country xml:id="Italie">Italie</country>
+            <note>capitale italienne, capitale d'empire romain</note>
+         </place>
+         <place xml:id="Geneve">
+            <placeName>Geneve</placeName>
+            <country>Suisse</country>
+            <note>capitale politique de la Suisse et ville des instituions internationaux</note>
+         </place>
+         <place xml:id="Lausanne">
+            <placeName>Lausanne</placeName>
+            <country>Suisse</country>
+            <note>ville francophone de la suisse</note>
+         </place>
+         <place xml:id="hautes_montagnes">
+            <placeName>Hautes montagnes</placeName>
+            <country>Suisse</country>
+            <note>Alpes suisses</note>
+         </place>
+         <place xml:id="Jardin_des_plantes">
+            <placeName>Jardin des Plantes</placeName>
+            <country>France</country>
+            <note>jardin et zoo parisien, situe proche de la gare d'Austerlitz et d'hopital
+               Salpetriere, Paris, 5eme arrondissement</note>
+         </place>
+      </listPlace>
+
+      <!-- People -->
+
+      <listPerson>
+         <person xml:id="Genevieve">
+            <persName>Geneviève</persName>
+            <note>fille de Charles Delmare et Emmelinne Dumirail</note>
+         </person>
+         <person xml:id="Julien_Dumirial">
+            <persName>Julien Dumirial</persName>
+            <note>Beau-frere de Ernest Dumirail, riche proprietaire</note>
+         </person>
+         <person xml:id="Charles_Delmare">
+            <persName>Charles Delmare</persName>
+            <note> Homme á la mode, riche et beau</note>
+         </person>
+         <person xml:id="Ernest_Dumirail">
+            <persName>Ernest Dumirail</persName>
+            <note>riche proprietaire habibant le departement de la Jura</note>
+         </person>
+         <person xml:id="Charles_Wagner">
+            <persName>Charles Wagner</persName>
+            <note>Peintre, études des beautes de la nature</note>
+         </person>
+         <person xml:id="Emmeline_Dumirail">
+            <persName>Emmeline Dumirail</persName>
+            <note> belle femmme, d'un coeur noble</note>
+         </person>
+         <person xml:id="Madame_San_Privato">
+            <persName>Madame San-Privato</persName>
+            <note>femme du consul general de Naples á Paris</note>
+         </person>
+      </listPerson>
+
+
+   </standOff>
+</TEI>
